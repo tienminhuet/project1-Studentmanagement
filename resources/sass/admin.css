@@ -1,0 +1,29 @@
+#logout-form {
+    display: none;
+}
+.img-avatar {
+    width:100px;
+    height: 100px;
+}
+/*.theoty-datatable{
+    height: 500px;
+    overflow:scroll-Y;
+}*/
+.modal-dialog {
+    overflow-y: initial !important;
+}
+/*.modal-body {
+    height: 500px;
+    overflow-y: auto;
+}*/
+.box-body ul li {
+    padding: 5px 10px;
+    border: 1px #b1acac solid;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn-orange {
+    color: white;
+    background-color: #ff7300;
+    border-color: #ff7300;
+}
