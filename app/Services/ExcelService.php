@@ -4,7 +4,7 @@ namespace App\Services;
 
 // use App\Repositories\Contracts\TestQuestionRepositoryInterface as TestQuestionRepository;
 use App\Imports\ExerciseImport;
-use Excel;
+use Maatwebsite\Excel\Facades\Excel;
 
 class ExcelService
 {
@@ -19,6 +19,7 @@ class ExcelService
     // }
     public function importFileQuestion($request)
     {
+        // dd($request->file('file'));
         $exerciseImport = new ExerciseImport();
         // try {
             Excel::import($exerciseImport, $request->file('file'));
