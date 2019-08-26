@@ -31,6 +31,7 @@ class AuthServiceProvider extends ServiceProvider
         foreach ($permissions as $key => $permission) {
             Gate::define($permission->name, function($user) use ($permission) {
                 $user_permissions = $user->role->permissions;
+                // dd($$user->role);
                 foreach ($user_permissions as $user_permission) {
                     if ($permission->name == $user_permission->name) {
                         return true;
