@@ -12,6 +12,6 @@
     "tests"
   ],
   "dependencies": {
-    "project1_bower": "*"
+    "project1_bower": "*" 
   }
 }

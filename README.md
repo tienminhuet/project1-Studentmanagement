@@ -4,4 +4,3 @@ php: PJ quản lý học sinh - sinh viên
 
 Note: after run bower install change name from: project1_bower to: adminTemplate.
 cheer.
-
