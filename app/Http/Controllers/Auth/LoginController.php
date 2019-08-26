@@ -50,13 +50,14 @@ class LoginController extends Controller
     //     // echo $user->id;
     //     $user_role = $user->role->id; //lay ra id cua role
     //     // echo $user_role;
-    //     dd($user_role);
+    //     // dd($user_role);
     //     $user_permisssions = $user->role->permissions;
     //     // dd($user_permisssions);
     //     $permissions = Permission::all();
     //     foreach ($user_permisssions as $key => $user_permisssion) {
-    //         // Gate::define($permission->code, function($user) use ($permission){
+    //         Gate::define($permission->code, function($user) use ($permission){
     //             // $user_permisssions = $user->role->permissions;
+    //         dd($user_permisssion->pivot->role_id);
     //             foreach ($permissions as $key => $permission) {
     //                 if ($permission->name == $user_permisssion->code) {
     //                     return $permission->code == $user_permisssion->code;
